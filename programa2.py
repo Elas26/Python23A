@@ -6,4 +6,4 @@ if cantidaddemanzanas >= 10:
 print(f"Las manzanas estan en: {preciodemanzanas} y fueron: {cantidaddemanzanas}")
 if(descuento >0):
     print(f"El descuento fue de: {descuento}")
-    
+print((preciodemanzanas*cantidaddemanzanas)-descuento)
