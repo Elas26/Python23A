@@ -29,6 +29,13 @@ else :
     numero1_1 < numero1 
     print(f"{numero1_1} es menor")
 
+#EJERCICIO 4 Hacer un programa que permita saber si un año es bisiesto. 
+#Para que un año sea bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400 
+año:int=float(input("Ingresar año: "))
+if año/4 :
+    print(f" {año} es año biciesto")
+else :
+    print(f"{año} no es año biciesto")
 #EJERCICIO 5 Escriba un programa que pida tres números y que escriba si son los tres iguales, 
 #si hay dos iguales o si son los tres distintos.
 
