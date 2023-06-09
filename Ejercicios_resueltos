@@ -32,7 +32,7 @@ else :
 #EJERCICIO 4 Hacer un programa que permita saber si un año es bisiesto. 
 #Para que un año sea bisiesto debe ser divisible por 4 y no debe ser divisible por 100, excepto que también sea divisible por 400 
 ano:int=float(input("Ingresar ano: "))
-if año % 4 !=0 : #no divisible entre 4
+if ano % 4 !=0 : #no divisible entre 4
     print(f" {ano} no es ano bisiesto")
 elif ano % 4 == 0 and ano % 100 != 0: # divisible entre 4 y no entre 100
     print(f"{ano} es ano bisiesto")
