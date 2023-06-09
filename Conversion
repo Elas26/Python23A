@@ -2,11 +2,3 @@ cantidad_dolares= int(input("Ingresa la cantidad: "))
 tasa_cambio=float(input("Ingresa la tasa de cambio: "))
 peso_mexicano=cantidad_dolares*tasa_cambio
 print(f"{cantidad_dolares} dolares son: {cantidad_dolares * tasa_cambio} pesos")    
-
-año:int=float(input("Ingresar año: "))
-if año/4 :
-    print(f" {año} es año bisiesto")
-elif año/100 :
-    print(f"{año} no es año bisiesto")
-else:
-    print(f"{año} no es bisiesto")
