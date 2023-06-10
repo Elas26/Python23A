@@ -1,3 +1,4 @@
+##########################FUNCION WHILE############################
 # contador = 0   
 # while contador < 5 :
 #     #print ("contador %d" % contador ) 
@@ -18,7 +19,45 @@
 #     print(f"{tabla} x {numero_multiplicado} = {tabla * numero_multiplicado} ")
 #     numero_multiplicado= numero_multiplicado + 1
     
-valida = 1
-while valida != 0 :
-        print("Hola")
-        valida = int(input("si quieres salir presiona 0"))
+# valida = 1
+# while valida != 0 :
+#         print("Hola")
+#         valida = int(input("si quieres salir presiona 0"))
+
+########################## FUNCION FOR ##########################
+# week=["lunes","martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+# nombre= "Elizabeth"
+# for letter in nombre :
+#     print(letter)
+
+# for day in week:
+#     print(day)  
+    
+# for count, day in enumerate (week) :
+#     print(count)
+#     print(day) 
+    
+######################## RANGO ##################################
+# rango = range(0,10)
+# for i in rango:
+#     print(i)
+    
+Lista= input("Ingresa una frase: ")
+comprobacionA = comprobacionE = comprobacionI= comprobacionO=comprobacionU = False
+for Vocals in Lista :
+    if "a" in Vocals.lower() and comprobacionA == False :
+        print("a")
+        comprobacionA=True
+    if "e" in Vocals.lower() and comprobacionA == False :
+        print("e")
+        comprobacionE=True
+    if "i" in Vocals.lower() and comprobacionI == False :
+        print("i")
+        comprobacionI=True
+    if "o" in Vocals.lower() and comprobacionO == False :
+        print("o")
+        comprobacionO=True
+    if "u" in Vocals.lower() and comprobacionU == False :
+        print("u")
+        comprobacionU=True
+      
