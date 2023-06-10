@@ -15,7 +15,7 @@ while tabla < 51 :
 
 tabla= int(input("Ingresa el numero de tabla a multiplicar: "))
 numero_multiplicado = 1
-while numero_multiplicado <= 100:
+while numero_multiplicado <= 10:
     print(f"{tabla} x {numero_multiplicado} = {tabla * numero_multiplicado} ")
     numero_multiplicado= numero_multiplicado + 1
     
@@ -48,7 +48,7 @@ for Vocals in Lista :
     if "a" in Vocals.lower() and comprobacionA == False :
         print("a")
         comprobacionA=True
-    if "e" in Vocals.lower() and comprobacionA == False :
+    if "e" in Vocals.lower() and comprobacionE == False :
         print("e")
         comprobacionE=True
     if "i" in Vocals.lower() and comprobacionI == False :
